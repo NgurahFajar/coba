@@ -14,14 +14,14 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.myapplication2.ui.theme.MyApplication2Theme
 
 class MainActivity : ComponentActivity() {
-    override fun onCreate(savedIasldlasndknknstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
             MyApplication2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Nsadasd",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
